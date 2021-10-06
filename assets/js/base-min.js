@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("ready!"),$("select").formSelect(),$(".datepicker").datepicker()});var preloader=document.getElementById("loading");function loading(){preloader.style.display="none"}

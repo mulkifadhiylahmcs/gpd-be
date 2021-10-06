@@ -1,0 +1,154 @@
+/* Color */
+
+.primary-color {
+    background-color: #222e84;
+}
+
+.text-primary-color {
+    color: #222e84;
+}
+
+.secondary-color {}
+
+.gradient {
+    background: rgb(40, 74, 164);
+    background: radial-gradient(circle, rgba(40, 74, 164, 0.43461134453781514) 0%, rgba(16, 40, 104, 1) 100%);
+}
+
+
+/* End Color */
+
+
+/* Preloader */
+
+
+/* End Preloader */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    z-index: -99999;
+}
+
+.loading {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.88);
+    color: white;
+}
+
+.loading .loading-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 5px;
+}
+
+.loading .loading-content img {
+    height: 30px;
+}
+
+.spinner-layer {
+    border-color: #fff;
+}
+
+.bg {
+    background-color: rgba(162, 166, 169, 0.4);
+    background-image: url(../image/background.png);
+}
+
+.main {
+    padding: 30px;
+}
+
+.main-title {
+    font-size: 22px;
+}
+
+
+/* div.col.s12.red.lighten-4.form-title {
+    padding: 0 0.75rem;
+} */
+
+.gradient-header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#009ee2+0,2989d8+0,009ee2+0,1a3661+100 */
+    background: rgb(48, 44, 133);
+    background: linear-gradient(90deg, rgba(48, 44, 133, 1) 0%, rgb(81, 78, 180) 50%, rgba(48, 44, 133, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#009ee2', endColorstr='#1a3661', GradientType=1);
+    /* IE6-9 */
+}
+
+span.content-title {
+    font-weight: 600;
+    text-shadow: -3px 2px 4px rgba(66, 103, 154, 0.36);
+    font-size: large;
+    margin-left: 20px;
+    padding-left: 270px
+}
+
+@media only screen and (max-width: 992px) {
+    span.content-title {
+        padding-left: 0
+    }
+}
+
+.collapsible-header.filter-header {
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    background-color: #01579b1f;
+}
+
+.collapsible-body.filter-body {
+    border-bottom: unset;
+    padding: 0.7rem 1rem;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.card.profile {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.card.profile>.card-content {
+    padding: 15px;
+}
+
+.card .card-content .card-title.name {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card .card-content .card-title.position {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.card .card-content .card-title.role {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+ul.sidenav>li>.card>.card-image>img {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    display: inline;
+    top: 10px;
+    border-radius: 80px;
+}
+
+ul.submenu-sidenav>li>a,
+ul.submenu-sidenav>li>a>i {
+    height: 35px !important;
+    line-height: 35px !important;
+}
